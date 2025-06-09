@@ -1,0 +1,128 @@
+@media (max-width: 480px) {
+    /* header */
+    header{
+        padding: 28px 20px;
+    }
+    .guitar_logo{
+        width: 40px;
+        height: 40px;
+    }
+    .header_icons_ul{
+        column-gap: 16px;
+    }
+    .header_icons,
+    .header_icons_mid{
+        padding: 10px;
+    }
+
+    /* home page */
+    .page1_h2,
+    .h2_span{
+        font-size: 24px;
+    }
+    .page1_h2::after{
+        vertical-align: -4px;
+    }
+    .page1_h3{
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    .page1_h2::after{
+        margin-left: 16px;
+    }
+    .page1_h3::after {
+        width: 156px;
+    }
+    .page1_main_section_2{
+        padding: 32px 0 32px 20px;
+    }
+
+    /* catalog page */
+    .page2_main{
+        padding: 32px 20px;
+        row-gap: 40px;
+    }
+    .filter{
+        display: none;
+    }
+    .sort_select{
+        display: none;
+    }
+    .sort_img{
+        display: block;
+    }
+    .page_scroll_buttons{
+        display: none;
+    }
+    .button_previous::before,
+    .button_next::after{
+        margin: 0;
+    }
+    .button_previous,
+    .button_next{
+        width: 52px;
+    }
+
+    /* contact page */
+    .page3_main{
+        padding: 64px 20px;
+    }
+    .form_top_section{
+        flex-direction: column;
+        row-gap: 36px;
+    }
+    /* footer */
+    footer{
+        flex-direction: column;
+        row-gap: 40px;
+        padding: 32px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_sec_left,
+    .footer_sec_mid,
+    .footer_sec_right,
+    .footer_ul{
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 320px) {
+    /* header */
+    header{
+        padding: 28px 8px;
+    }
+
+    /* home page */
+    .page1_main_section_1 {
+        height: 320px;
+        background-size: 100% 320px;
+    }
+    .page1_main_section_2{
+        padding: 32px 0 32px 8px;
+    }
+
+    /* catalog page */
+    .page2_main{
+        padding: 32px 8px;
+    }
+    .cards{
+        height: 400px;
+    }
+
+    /* contact page */
+    .page3_main{
+        padding: 48px 8px;
+    }
+    .contact_section{
+        padding: 16px 8px;
+    }
+    .form_top_section{
+        row-gap: 24px;
+    }
+    .form{
+        row-gap: 24px;
+    }
+    
+}

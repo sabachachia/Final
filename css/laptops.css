@@ -1,0 +1,51 @@
+@media (max-width: 1180px) {
+
+    /* header */
+    .burger{
+        display: block;
+    }
+    .header_nav{
+        background-color: #C46A2B;
+        padding: 16px 56px 16px 16px;
+        position: fixed;
+        top: 101px;
+        left: -100%;
+        transition: .3s;
+    }
+    .header_nav_ul{
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .nav_a{
+        color: #A1C3C9;
+    }
+    header{
+        padding: 16px 32px;
+    }
+
+    /* home page */
+    .page1_main_section_2{
+        padding: 96px 0 96px 32px;
+    }
+    .page1_cards{
+        width: 272px;
+        height: 331px;
+    }
+    .page1_h3{
+        margin-right: 32px;
+    }
+
+    /* catalog page */
+    .page2_main{
+        padding: 96px 32px;
+    }
+    .cards_section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        height: 400px;
+    }
+    .card7-9{
+        display: none;
+    }
+}
