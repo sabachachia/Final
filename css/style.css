@@ -181,6 +181,7 @@ header{
     column-gap: 20px;
     overflow-x: scroll;
     padding: 20px;
+    scrollbar-width: none;
 }
 .page1_cards{
     width: 298px;
@@ -192,7 +193,7 @@ header{
     row-gap: 16px;
     background-color: var(--secondary-color1);
     border: 1px solid var(--secondary-color2);
-        transition: var(--transition-delay);
+    transition: var(--transition-delay);
 
 }
 .page1_cards:hover{
